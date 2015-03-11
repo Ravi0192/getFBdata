@@ -1,0 +1,90 @@
+body {
+	background-color: #E8E8E8;
+	font-size: 16px;
+}
+.hidden {
+	display: none;
+	visibility: hidden;
+}
+.data-form {
+	margin-bottom: 2em;
+	margin-top: 1em;
+}
+label {
+	font-size: .9em;
+	margin-right: .5em;
+}
+input[type="text"] {
+	border-radius: 5px;
+	font-size: .9em;
+	font-weight: 200;
+	padding: .4em;
+	width: 300px;
+}
+input#datepicker {
+	width: 100px;
+}
+input[type="submit"] {
+	background-color: #2A80DB;
+	border: 1px solid #3D7BFE;
+	border-radius: 5px;
+	color: #FFF;
+	font-size: .9em;
+	height: 30px;
+	vertical-align: top;
+}
+.fanpage-info {
+	margin-bottom: 1.5em;
+}
+.fanpage-info .picture img {
+	border: 5px solid #FFF;
+	border-radius: 5px;
+}
+.fanpage-info .info {
+	color: #444;
+	font-size: .8em;
+	font-weight: 600;
+}
+.fanpage-info .info span {
+	font-weight: 200;
+}
+.fb_button {
+	background-color: #2A80DB;
+	border-radius: 5px;
+	border: 1px solid #3D7BFE;
+	color: #FFF;
+	cursor: pointer;
+	font-size: .9em;
+	height: 30px;
+	vertical-align: top;
+	display: block;
+	text-align: center;
+	line-height: 2em;
+}
+.button {
+	background-color: #39EE0D;
+	border-radius: 5px;
+	border: 1px solid #2AAF0A;
+	color: #FFF;
+	cursor: pointer;
+	font-size: .9em;
+	height: 30px;
+	vertical-align: top;
+	display: block;
+	text-align: center;
+	line-height: 2em;
+}
+a.fb_button:hover, a.button:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#fanpageData_filter, .dataTables_info {
+	display: none;
+}
+.dataTables_scrollHead .table {
+	margin-bottom: 0px!important;
+}
+.dataTables_scrollHeadInner {
+	width: 100%;
+}
