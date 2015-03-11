@@ -21,10 +21,9 @@
     window.fbAsyncInit = function() {
       FB.init({
         appId      : '1556948941252219',
-        cookie     : true,  // enable cookies to allow the server to access 
-                            // the session
-        xfbml      : true,  // parse social plugins on this page
-        version    : 'v2.2' // use version 2.2
+        cookie     : true, 
+        xfbml      : true, 
+        version    : 'v2.2'
       });
 
       FB.getLoginStatus(function(response) {
@@ -41,12 +40,10 @@
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
 
-    // Here we run a very simple test of the Graph API after login is
-    // successful.  See statusChangeCallback() for when this call is made.
     function testAPI() {
-      console.log('Welcome!  Fetching your information.... ');
+      //console.log('Welcome!  Fetching your information.... ');
       FB.api('/me', function(response) {
-        console.log('Successful login for: ' + response.name);
+        //console.log('Successful login for: ' + response.name);
       });
 
       jQuery('.login').hide();
@@ -55,7 +52,6 @@
 
     function fbLogout() {
       FB.logout(function (response) {
-          //Do what ever you want here when logged out like reloading the page
           window.location.reload();
       });
     }
